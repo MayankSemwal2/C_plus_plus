@@ -1,0 +1,2 @@
+Here the preprocessor shows an error because it is the job of the preprocessor to check the # files or the header files
+preprocessor here shows an error because there is no such file there and preprocessor fail to find and process it.

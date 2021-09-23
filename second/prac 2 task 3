@@ -1,0 +1,1 @@
+In this code we are taking the char type variable and input a string type value in it thus getting a char type(which is the first character of the input)value.It is because char has only 8 bits of storage so the compiler smartly picks up the first charcter out of the input and thrown the rest of data.

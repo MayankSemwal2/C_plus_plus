@@ -1,0 +1,1 @@
+The error is not shown by the preprocessor as the syntax of the code is not checked by the preprocessor. It just check for the header files and not show mistakes if there is a header file or not as it is correct acording to it.
