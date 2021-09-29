@@ -1,20 +1,30 @@
 #include<iostream>
 namespace first{
-void add(int a,int b)
+int add(int a,int b)
 {
-std::cout<<(a+b)<<"\n";
+return (a+b);
 }
 }
 namespace second{
-void add(float a,float b)
+float add(float a,float b)
 {
-std::cout<<(a+b)<<"\n";
+return (a+b);
 }
 }
-
+using namespace std;
+//using namespace first;
+//using namespace second;
 int main()
 {
-first::add(2,56);
-second::add(2.9,59.98);
+cout<<first::add(2.1,56.0)<<"\n";
+cout<<first::add(2.1,56)<<"\n";
+cout<<first::add(2,56)<<"\n";
+cout<<second::add(2.1,56.0)<<"\n";
+cout<<second::add(2.1,56)<<"\n";
+cout<<second::add(2,56)<<"\n";
+
+
+
+
 return 0;
 }
