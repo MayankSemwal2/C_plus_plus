@@ -6,7 +6,7 @@ void swap(int *a, int *b)
     *a=*a+*b;
     *b=*a-*b;
     *a=*a-*b;
-    cout<<"\nAfter swapping values of : a is "<<*a<<" and b is "<<*b;
+   
 }
 
 int main()
@@ -15,6 +15,6 @@ int main()
     int b=20;
     cout<<"Before swapping values of : a is "<<a<<" and b is "<<b;
     swap(&a,&b);
-  
+   cout<<"\nAfter swapping values of : a is "<<a<<" and b is "<<b;
 return 0;
 }
