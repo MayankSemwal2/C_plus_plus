@@ -1,0 +1,2 @@
+Error occurs because here we are just adding one to the address of first value of array.
+As we know array occupy  contigious not continuous memory 
