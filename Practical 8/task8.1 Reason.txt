@@ -1,0 +1,2 @@
+This program is throwing us an error because a pointer variable is use to store the address of another variable of same type but 
+here we are trying to store value to a pointer variable which is not acceptable.
