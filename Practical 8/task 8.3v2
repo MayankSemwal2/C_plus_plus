@@ -1,0 +1,3 @@
+In this program we first stored the address of variable a to pointer p and then passes the address of p to pointer named q.
+but in the very next step the value of **q is changed to 98,so as pointers direct directly to location of memory ,q having address of p 
+changes the value at that address making *p to print 98 which is **q=98.
