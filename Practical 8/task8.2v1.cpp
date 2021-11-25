@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//8.2 v2
+
 
 int main()
 {
